@@ -1,63 +1,50 @@
 <template>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="text-center my-4">ISI BUKU KUNJUNGAN</h2>
-          <form>
-            <div class="mb-3">
-              <input type="text" class="form-control form-control-lg rounded-5" placeholder="NAMA...">
-            </div>
-            <div class="mb-3">
-              <select class="form-control form-control-lg from-select rounded-5">
-                <option value="">KEANGGOTAAN</option>
-                <option value="Siswa">Siswa</option>
-                <option value="Guru">Guru</option>
-                <option value="Staf">Staf</option>
-                <option value="Umum">Umum</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <div class="row">
-                <div class="col-md-4">
-                  <select class="form-control form-control-lg from-select rounded-5 mb-2">
-                    <option value="">TINGKAT</option>
-                    <option value="X">X</option>
-                    <option value="XI">XI</option>
-                    <option value="XII">XII</option>
-                  </select>
-                </div>
-                <div class="col-md-4">
-                  <select class="form-control form-control-lg from-select rounded-5 mb-2">
-                    <option value="">JURUSAN</option>
-                    <option value="PPLG">PPLG</option>
-                    <option value="TJKT">TJKT</option>
-                    <option value="TSM">TSM</option>
-                    <option value="DKV">DKV</option>
-                    <option value="TOI">TOI</option>
-                  </select>
-                </div>
-                <div class="col-md-4">
-                  <select class="form-control form-control-lg from-select rounded-5 mb-2">
-                    <option value="">KELAS</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                  </select>
-                </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="text-conter my-4">BUKU</h2>
+        <div class="my-3">
+          <input type="search" class="form-control rounded-5" placeholder="Mau baca apa hari ini?">
+        </div>
+        <div class="my-3 text-muted">menampilkan 3 dari 3</div>
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="card-mb-3">
+              <div class="card-body">
+                <img src="~/assets/img/angkasa.png" class="cover" alt="cover 1">
               </div>
             </div>
-            <div class="mb-3">
-              <select class="form-control form-control-lg from-select rounded-5">
-                <option value="">KEPERLUAN</option>
-                <option value="Baca">Baca Buku</option>
-                <option value="Pinjam">Pinjam Buku</option>
-                <option value="Kembalikan">Kembalikan Buku</option>
-              </select>
+          </div>
+          <div class="col-lg-2">
+            <div class="card mb-3">
+              <div class="card-body">
+                <img src="~/assets/img/bucin.png" class="cover" alt="cover 2">
+              </div>
             </div>
-            <button type="submit" class="btn btn-dark btn-lg rounded-5 px-5">KIRIM</button>
-          </form>
+          </div>
+          <div class="col-lg-2">
+            <div class="card mb-3">
+              <div class="card-body">
+                <img src="~/assets/img/172.png" class="cover" alt="cover3">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </template>
+  </div>
+</template>
+
+<style scoped>
+.card-body {
+  width: 100%;
+  height: 20em;
+  padding: 0;
+}
+.cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 30;
+}
+</style>

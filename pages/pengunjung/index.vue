@@ -21,8 +21,8 @@ import { installModule } from 'nuxt/kit';
                     <tbody>
                         <tr>
                             <td>1.</td>
-                            <td>Zul Hilmi</td>
-                            <td>Guru</td>
+                            <td>yuli sthnfah</td>
+                            <td>murid</td>
                             <td>24 Februari 2024, 23.31.00</td>
                             <td>Baca</td>
                         </tr>

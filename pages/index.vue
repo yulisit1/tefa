@@ -11,7 +11,7 @@
                 </nuxt-link>
             </div>
             <div class="col-lg-6">
-                <nuxt-link to="/buku/index">
+                <nuxt-link to="/buku">
                     <div class="card bg-buku rounded-5">
                         <div class="card-body">
                             <h2>Cari Buku</h2>
@@ -33,7 +33,7 @@
         </div>
         <div class="col-5">
             <div class="yuli1">
-                <h2>180 Buku</h2>
+                <h2>3 Buku</h2>
             </div>
         </div>
     </div>
@@ -62,13 +62,13 @@
     box-shadow: 1px 1px 5px #424242;
 }
 .card.bg-pengunjung {
-    background-image: url('../assets/img/kunjungan.png');
+    background-image: url('../assets/img/love.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .card.bg-buku {
-    background: url('../assets/img/cari buku.png') no-repeat center center;
+    background: url('../assets/img/ilusi.png') no-repeat center center;
     background-size: cover;
 }
 .yuli {
